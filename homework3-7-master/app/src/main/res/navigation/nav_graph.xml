@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/rikiFragment">
+
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.example.homework3_7.BlankFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank" >
+        <action
+            android:id="@+id/action_blankFragment_to_placeholder"
+            app:destination="@id/placeholder" />
+    </fragment>
+    <fragment
+        android:id="@+id/rikiFragment"
+        android:name="com.example.homework3_7.RikiFragment"
+        android:label="fragment_riki"
+        tools:layout="@layout/fragment_riki" >
+        <action
+            android:id="@+id/action_rikiFragment_to_blankFragment"
+            app:destination="@id/blankFragment" />
+    </fragment>
+    <fragment android:id="@+id/placeholder" />
+</navigation>

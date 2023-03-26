@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Home_Work_3_4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_found">no_found</string>
+    <string name="country_name">country_name</string>
+    <string name="capital_name">capital_name</string>
+</resources>

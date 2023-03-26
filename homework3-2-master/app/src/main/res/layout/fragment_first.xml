@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment"
+    android:background="@drawable/img">
+
+
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="60dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginBottom="82dp"/>
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:text="+"
+        android:textSize="20dp"
+        android:backgroundTint="@color/teal_200"
+        android:layout_gravity="center"
+        android:layout_marginEnd="52dp"/>
+
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:text="-"
+        android:textSize="20dp"
+        android:backgroundTint="@color/teal_200"
+        android:layout_gravity="center"
+        android:layout_marginStart="52dp" />
+
+
+
+</FrameLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HomeWork3_1</string>
+    <string name="Name">Name</string>
+    <string name="Password">Password</string>
+    <string name="Gmail">Gmail</string>
+    <string name="SEND">SEND</string>
+    <string name="Enter_text">Введите текст</string>
+    <string name="Header">Header</string>
+</resources>
